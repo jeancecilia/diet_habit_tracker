@@ -1,0 +1,45 @@
+name: test
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animated_splash_screen: ^1.2.0
+  url_launcher: ^6.0.17
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/bottles/
+
+  fonts:
+    - family: Cocon
+      fonts:
+        - asset: fonts/Cocon-Regular-Font.otf
+        - asset: fonts/Cocon-Bold-Font.otf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+        - asset: fonts/Poppins-Italic.ttf
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Medium.ttf
+        - asset: fonts/Poppins-MediumItalic.ttf
+        - asset: fonts/Poppins-BoldItalic.ttf
+
+
